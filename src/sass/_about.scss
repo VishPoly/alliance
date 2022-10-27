@@ -1,0 +1,117 @@
+.about {
+    background: #84A178;
+    height: 1564px;
+}
+
+.about-tradition {
+    color: var(--white-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 12px;
+}
+.about-title {
+    color: var(--white-text-color);
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.26;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+        margin-bottom: 32px;
+}
+.about-cow{
+    display: flex;
+    justify-content: center;
+}
+
+.about-info-first {
+    color: var(--white-text-color);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.75;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-top: 40px;
+    margin-bottom: 4px;
+    
+}
+.about-info-second {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.58;
+    text-align: center;
+    color: var(--white-text-color);
+    margin-bottom: 21px;
+}
+
+.about-more {
+    flex-wrap: wrap;
+    color: var(--black-text-color);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    width: 164px;
+    height: 42px;
+
+    margin: auto;
+
+}
+
+.about-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 41px;
+}
+
+.about-item {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 27px;
+    
+}
+.about-icon {
+    background-color: var(--accent-color);
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.about-numbers {
+    color: var(--white-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-top: 16px;
+    
+}
+
+.about-description {
+    color: var(--white-text-color);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.66;
+    text-align: center;
+    margin-top: 18px;
+}
