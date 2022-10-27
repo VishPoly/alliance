@@ -1,6 +1,6 @@
 .about {
     background: #84A178;
-    height: 1564px;
+    height: 100%;
 }
 
 .about-tradition {
@@ -29,6 +29,14 @@
 .about-cow{
     display: flex;
     justify-content: center;
+    
+}
+
+.about-info {
+    width:220px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .about-info-first {
@@ -40,15 +48,19 @@
     letter-spacing: 0.04em;
     margin-top: 40px;
     margin-bottom: 4px;
+
     
 }
 .about-info-second {
+    
     font-weight: 400;
     font-size: 12px;
     line-height: 1.58;
+
     text-align: center;
     color: var(--white-text-color);
     margin-bottom: 21px;
+    
 }
 
 .about-more {
@@ -65,9 +77,15 @@
     border-radius: 10px;
     width: 164px;
     height: 42px;
+    cursor: pointer;
 
     margin: auto;
 
+}
+
+.about-frame{
+    margin-left: 5px;
+    
 }
 
 .about-list {
@@ -86,12 +104,22 @@
     margin-bottom: 27px;
     
 }
-.about-icon {
-    background-color: var(--accent-color);
+
+.about-link{
     border-radius: 25px;
     width: 50px;
     height: 50px;
+    background-color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+// .about-icon {
+//     background-color: var(--accent-color);
+//     border-radius: 25px;
+//     width: 50px;
+//     height: 50px;
+// }
 
 .about-numbers {
     color: var(--white-text-color);
