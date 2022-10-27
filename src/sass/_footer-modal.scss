@@ -1,0 +1,76 @@
+input::-webkit-input-placeholder {  color: #131313 }
+
+.footer-modal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 674px;
+    background: #FCFCFC;
+    border: 2px solid #F8D24E;
+    border-radius: 10px;
+}
+.footer-close-btn{
+    display: block;
+    margin: 8px 8px 4px auto;
+    &:hover,
+    &:focus{
+        fill:#F8D24E;
+    }
+}
+.footer-modal-title{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 221px;
+    font-family: 'Seymour One';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    color: #131313;
+}
+.footer-modal-text{
+    margin: 20px 28px 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #131313;
+}
+.footer-input{
+    margin-bottom: 12px;
+    margin-left: 24px;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.4;
+    width: 224px;
+    height: 32px;
+    background: rgba(248, 210, 78, 0.1);
+    border: 1px solid #84A178;
+    border-radius: 10px;
+}
+.footer-input-coment{
+    margin-left: 24px;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.4;
+    width: 224px;
+    height: 64px;
+    background: rgba(248, 210, 78, 0.1);
+    border: 1px solid #84A178;
+    border-radius: 10px;
+}
+
+.footer-modal-btn{
+    margin: 24px 83px 28px;
+    padding: 12px 34px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    text-align: center;
+    color: #131313;
+    background: #F8D24E;
+    border-radius: 10px;
+}
+
