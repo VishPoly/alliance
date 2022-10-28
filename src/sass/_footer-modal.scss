@@ -8,6 +8,15 @@ input::-webkit-input-placeholder {  color: #131313 }
     background: #FCFCFC;
     border: 2px solid #F8D24E;
     border-radius: 10px;
+    @media screen and (min-width: 768px) {
+        width: 568px;
+        height: 668px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 568px;
+        height: 668px;
+    }
 }
 .footer-close-btn{
     display: block;
@@ -15,6 +24,12 @@ input::-webkit-input-placeholder {  color: #131313 }
     &:hover,
     &:focus{
         fill:#F8D24E;
+    }
+    @media screen and (min-width: 768px) {
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
     }
 }
 .footer-modal-title{
@@ -28,6 +43,16 @@ input::-webkit-input-placeholder {  color: #131313 }
     align-items: center;
     text-align: center;
     color: #131313;
+    @media screen and (min-width: 768px) {
+        width: 322px;
+        font-size: 20px;
+        line-height: 1.4;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -12px;
+
+  
+    }
 }
 .footer-modal-text{
     margin: 20px 28px 24px;
@@ -35,7 +60,13 @@ input::-webkit-input-placeholder {  color: #131313 }
     font-size: 14px;
     line-height: 140%;
     color: #131313;
+    @media screen and (min-width: 768px) {
+        font-size: 15px;
+        line-height: 1.4;
+        margin: 24px 60px 32px;
+    }
 }
+
 .footer-input{
     margin-bottom: 12px;
     margin-left: 24px;
@@ -48,8 +79,16 @@ input::-webkit-input-placeholder {  color: #131313 }
     background: rgba(248, 210, 78, 0.1);
     border: 1px solid #84A178;
     border-radius: 10px;
+    @media screen and (min-width: 768px) {
+        width: 368px;
+        height: 42px;
+        margin-left: 100px;
+        margin-bottom: 16px;
+        
+    }
 }
 .footer-input-coment{
+    padding-bottom: 39px;
     margin-left: 24px;
     padding-left: 12px;
     font-weight: 400;
@@ -60,6 +99,12 @@ input::-webkit-input-placeholder {  color: #131313 }
     background: rgba(248, 210, 78, 0.1);
     border: 1px solid #84A178;
     border-radius: 10px;
+    @media screen and (min-width: 768px) {
+        width: 368px;
+        height: 84px;
+        margin-left: 100px;
+        padding-bottom: 53px;    
+    }
 }
 
 .footer-modal-btn{
@@ -73,5 +118,8 @@ input::-webkit-input-placeholder {  color: #131313 }
     background: #F8D24E;
     border-radius: 10px;
     border: none;
+    @media screen and (min-width: 768px) {
+        margin: 32px 224px 32px;  
+    }
 }
 
