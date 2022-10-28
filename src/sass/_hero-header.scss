@@ -1,0 +1,97 @@
+.header {
+    background-color: var(--background-color);
+    height: 100vh;
+    background-image: url(../photo/hero/dot@m1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.nav__bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.menu__btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu__btn--icon {
+    fill: var(--white-text-color);
+}
+
+.hero__title {
+    margin-top: 61px;
+    max-width: 247px;
+    font-family: "Seymour One";
+    font-size: 26px;
+    line-height: 1.03;
+    text-transform: uppercase;
+    // letter-spacing: 4%;
+    text-align: left;
+    color: var(--white-text-color);
+}
+
+.hero__title-first {
+    font-size: 27px;
+}
+
+.hero__title-span {
+    font-size: 37px;
+    line-height: 1.13;
+    // letter-spacing: 4%;
+    text-align: left;
+    color: var(--white-text-color);
+}
+
+.hero__links {
+    display: flex;
+    margin-top: 32px;
+}
+
+.hero__item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.hero__link {
+    width: 62px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 9.75px;
+    color: var(--black-text-color);
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.hero__link-made {
+    width: 111px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 0.975;
+    color: var(--accent-color);
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -53px;
+}
