@@ -92,6 +92,10 @@
   background-image: url(../photo/products/background/background-image-1-mobile-min.png);
   background-size: cover;
 
+  @media screen and(min-width:400px) {
+    padding: 280px 50px 0px 50px;
+  }
+
   @media screen and(min-width:768px) {
     padding: 343px 0 64px;
     background-image: none;
@@ -109,6 +113,10 @@
   background-image: url(../photo/products/background/background-image-2-mobile-min.png);
   background-size: cover;
 
+  @media screen and(min-width:400px) {
+    padding: 164px 50px 0px 50px;
+  }
+
   @media screen and(min-width:768px) {
     padding: 343px 0 64px;
     background-image: none;
@@ -125,6 +133,10 @@
   max-width: 480px;
   background-image: url(../photo/products/background/background-image-3-mobile-min.png);
   background-size: cover;
+
+  @media screen and(min-width:400px) {
+    padding: 164px 50px 0px 50px;
+  }
 
   @media screen and(min-width:768px) {
     padding: 343px 0 64px;
@@ -305,9 +317,7 @@
 
   @media screen and(min-width:1200px) {
     margin-top: 166px;
-    
   }
-
 }
 
 .products__description {
