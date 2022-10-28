@@ -45,5 +45,8 @@
 <symbol id="icon-Vec" viewBox="0 0 22 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.2 3.2l15.84 12.8-15.84 12.8"></path>
 </symbol>
+<symbol id="icon-veg-2" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.3333" d="M10.667 5.333l13.2 10.667-13.2 10.667"></path>
+</symbol>
 </defs>
 </svg>
