@@ -38,11 +38,13 @@
   transform: translateX(-50%);
 
   @media screen and(min-width:768px) {
+    transform: none;
     left: 295px;
   }
 
   @media screen and(min-width:1200px) {
-    left: 459px;
+    transform: none;
+    left: 550px;
   }
 }
 
@@ -61,11 +63,13 @@
   transform: translateX(-50%);
 
   @media screen and(min-width:768px) {
+    transform: none;
     left: 231px;
   }
 
   @media screen and(min-width:1200px) {
-    left: 434px;
+    transform: none;
+    left: 485px;
   }
 }
 
@@ -299,6 +303,11 @@
   margin-top: 123px;
   margin-bottom: 40px;
 
+  @media screen and(min-width:1200px) {
+    margin-top: 166px;
+    
+  }
+
 }
 
 .products__description {
@@ -310,7 +319,6 @@
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--black-text-color);
-  margin-bottom: 90px;
   padding: 0px 40px;
 }
 
