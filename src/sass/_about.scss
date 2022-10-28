@@ -65,6 +65,7 @@
 }
 
 .about-more {
+    border: none;
     flex-wrap: wrap;
     color: var(--black-text-color);
     font-weight: 600;
@@ -79,7 +80,7 @@
     width: 164px;
     height: 42px;
     cursor: pointer;
-
+  
     margin: auto;
 
 }
