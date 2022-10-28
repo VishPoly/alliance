@@ -50,6 +50,11 @@
 }
 
 .location-close-btn{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
     display: block;
     margin: 8px 8px 4px auto;
     &:hover,
