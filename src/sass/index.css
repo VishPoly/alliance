@@ -1,0 +1,495 @@
+.container {
+  width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    padding: 0px 20px;
+    width: 480px;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0px 33px;
+    width: 768px;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    height: 100%;
+  }
+}
+
+.visually-hidden {
+  visibility: hidden;
+  height: 0;
+}
+
+.header {
+  background-color: var(--background-color);
+  height: 100vh;
+  background-image: url(../photo/hero/dot@m1.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.nav__bar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+.menu__btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu__btn--icon {
+  fill: var(--white-text-color);
+}
+
+.hero__title {
+  margin-top: 61px;
+  max-width: 247px;
+  font-family: "Seymour One";
+  font-size: 26px;
+  line-height: 1.03;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--white-text-color);
+}
+
+.hero__title-first {
+  font-size: 27px;
+}
+
+.hero__title-span {
+  font-size: 37px;
+  line-height: 1.13;
+  text-align: left;
+  color: var(--white-text-color);
+}
+
+.hero__links {
+  display: flex;
+  margin-top: 32px;
+}
+
+.hero__item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.hero__link {
+  width: 62px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 9.75px;
+  color: var(--black-text-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.hero__link-made {
+  width: 111px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 0.975;
+  color: var(--accent-color);
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -53px;
+}
+
+.container.container__products {
+  position: relative;
+  padding: 0px;
+  margin: 0 auto;
+  max-width: 480px;
+}
+@media screen and (min-width: 768px) {
+  .container.container__products {
+    background-image: url(../photo/products/background/background-image-tablet-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 32px;
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .container.container__products {
+    background-image: url(../photo/products/background/background-image-tablet-2x-min.png);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container.container__products {
+    background-image: url(../photo/products/background/background-image-desctop-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 12px;
+    max-width: 1200px;
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .container.container__products {
+    background-image: url(../photo/products/background/background-image-desctop-2x-min.png);
+  }
+}
+
+.products__about,
+.products__title {
+  position: absolute;
+  margin: 0;
+}
+
+.products__about {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--black-text-color);
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media screen and (min-width: 768px) {
+  .products__about {
+    transform: none;
+    left: 295px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__about {
+    transform: none;
+    left: 550px;
+  }
+}
+
+.products__title {
+  font-family: "Seymour One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.27;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--black-text-color);
+  top: 96px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media screen and (min-width: 768px) {
+  .products__title {
+    transform: none;
+    left: 231px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__title {
+    transform: none;
+    left: 485px;
+  }
+}
+
+.products__list {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .products__list {
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+
+.products__card.ice-cream {
+  padding: 280px 30px 0px 30px;
+  max-width: 480px;
+  background-image: url(../photo/products/background/background-image-1-mobile-min.png);
+  background-size: cover;
+}
+@media screen and (min-width: 400px) {
+  .products__card.ice-cream {
+    padding: 280px 50px 0px 50px;
+  }
+}
+@media screen and (min-width: 400px) and (min-device-pixel-ratio: 2), screen and (min-width: 400px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 400px) and (min-resolution: 192dpi), screen and (min-width: 400px) and (min-resolution: 2dppx) {
+  .products__card.ice-cream {
+    background-image: url(../photo/products/background/background-image-1-mobile-2x-min.png);
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__card.ice-cream {
+    padding: 343px 0 64px;
+    background-image: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__card.ice-cream {
+    max-width: 370px;
+    padding: 457px 0px 66px 0px;
+  }
+}
+
+.products__card.ice-coffee {
+  padding: 164px 30px 0px 30px;
+  max-width: 480px;
+  background-image: url(../photo/products/background/background-image-2-mobile-min.png);
+  background-size: cover;
+}
+@media screen and (min-width: 400px) {
+  .products__card.ice-coffee {
+    padding: 164px 50px 0px 50px;
+  }
+}
+@media screen and (min-width: 400px) and (min-device-pixel-ratio: 2), screen and (min-width: 400px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 400px) and (min-resolution: 192dpi), screen and (min-width: 400px) and (min-resolution: 2dppx) {
+  .products__card.ice-coffee {
+    background-image: url(../photo/products/background/background-image-2-mobile-2x-min.png);
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__card.ice-coffee {
+    padding: 343px 0 64px;
+    background-image: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__card.ice-coffee {
+    max-width: 370px;
+    padding: 457px 0px 66px 0px;
+  }
+}
+
+.products__card.milkshakes {
+  padding: 164px 30px 60px 30px;
+  max-width: 480px;
+  background-image: url(../photo/products/background/background-image-3-mobile-min.png);
+  background-size: cover;
+}
+@media screen and (min-width: 400px) {
+  .products__card.milkshakes {
+    padding: 164px 50px 0px 50px;
+  }
+}
+@media screen and (min-width: 400px) and (min-device-pixel-ratio: 2), screen and (min-width: 400px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 400px) and (min-resolution: 192dpi), screen and (min-width: 400px) and (min-resolution: 2dppx) {
+  .products__card.milkshakes {
+    background-image: url(../photo/products/background/background-image-3-mobile-2x-min.png);
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__card.milkshakes {
+    padding: 343px 0 64px;
+    background-image: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__card.milkshakes {
+    max-width: 370px;
+    padding: 457px 0px 66px 0px;
+  }
+}
+
+.products__wrap.ice-cream {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #aec6a5;
+  border-radius: 24px;
+  height: 428px;
+}
+.products__wrap.ice-cream::before {
+  content: url(../photo/products/ice-cream-mobile-min.png);
+  position: absolute;
+  top: -100px;
+  border-radius: 50%;
+  background: linear-gradient(0deg, rgba(156, 190, 143, 0.7), rgba(156, 190, 143, 0.7)), #d9d9d9;
+  box-shadow: 0px 11.34219px 20.0332px rgba(10, 136, 23, 0.25);
+}
+@media screen and (min-width: 1200px) {
+  .products__wrap.ice-cream::before {
+    content: url(../photo/products/ice-cream-desctop-min.png);
+    top: -150px;
+    background: linear-gradient(0deg, rgba(156, 190, 143, 0.7), rgba(156, 190, 143, 0.7)), #d9d9d9;
+    box-shadow: 0px 8px 30px rgba(10, 136, 23, 0.25);
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__wrap.ice-cream {
+    width: 224px;
+    height: 480px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__wrap.ice-cream {
+    width: 370px;
+    height: 535px;
+  }
+}
+
+.products__wrap.ice-coffee {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #efd478;
+  border-radius: 24px;
+  height: 428px;
+}
+.products__wrap.ice-coffee::before {
+  content: url(../photo/products/ice-coffee-mobile-min.png);
+  position: absolute;
+  top: -100px;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #d9d9d9;
+  box-shadow: 0px 11.40397px 20.2649px rgba(153, 114, 23, 0.25);
+}
+@media screen and (min-width: 1200px) {
+  .products__wrap.ice-coffee::before {
+    content: url(../photo/products/ice-coffee-desctop-min.png);
+    top: -150px;
+    background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #d9d9d9;
+    box-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__wrap.ice-coffee {
+    width: 224px;
+    height: 480px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__wrap.ice-coffee {
+    width: 370px;
+    height: 535px;
+  }
+}
+
+.products__wrap.milkshakes {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d6936d;
+  border-radius: 24px;
+  height: 428px;
+}
+.products__wrap.milkshakes::before {
+  content: url(../photo/products/milkshake-mobile-min.png);
+  position: absolute;
+  width: 100%;
+  top: -100px;
+  display: block;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  background: linear-gradient(0deg, rgba(213, 117, 63, 0.7), rgba(213, 117, 63, 0.7)), #d9d9d9;
+  box-shadow: 0px 11.41333px 20.3px rgba(0, 0, 0, 0.25);
+}
+@media screen and (min-width: 1200px) {
+  .products__wrap.milkshakes::before {
+    content: url(../photo/products/milkshake-desctop-min.png);
+    top: -150px;
+    background: linear-gradient(0deg, rgba(213, 117, 63, 0.7), rgba(213, 117, 63, 0.7)), #d9d9d9;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__wrap.milkshakes {
+    width: 224px;
+    height: 480px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__wrap.milkshakes {
+    width: 370px;
+    height: 535px;
+  }
+}
+
+.products__about-wrap {
+  text-align: center;
+}
+
+.products__type {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--black-text-color);
+  margin-top: 123px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1200px) {
+  .products__type {
+    margin-top: 166px;
+  }
+}
+
+.products__description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.76;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--black-text-color);
+  padding: 0px 40px;
+}
+
+.products__modal {
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+}
+@media screen and (min-width: 1200px) {
+  .products__modal {
+    margin-bottom: 60px;
+  }
+}
+
+.products__arrow {
+  fill: black;
+}/*# sourceMappingURL=index.css.map */
