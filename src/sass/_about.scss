@@ -1,6 +1,7 @@
 .about {
     background: #84A178;
     height: 100%;
+    margin: -1px;
     
     @media screen and(min-width: 768px) {
         margin-bottom: -20px;
@@ -66,14 +67,6 @@
     
 }
 
-.about-cow-pic{
-    @media screen and(min-width: 480px) {
-    background-image:url(../photo/about/cowonmeadowx1.png);
-    }
-    @media screen and(min-width: 768px) {
-    background-image: url(../photo/about/cowonmeadowtabx1.png);
-        }
-}
 
 .about-all {
     @media screen and(min-width: 320px) {
