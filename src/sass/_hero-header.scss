@@ -28,6 +28,7 @@
         margin-right: auto;
     }
 }
+
 .hero__img {
     background-image: url(../photo/hero/icecream@m1x.png);
     background-repeat: no-repeat;
@@ -303,13 +304,14 @@
     .header__hero-background {
         margin-left: auto;
         margin-right: auto;
+        padding: 0;
     }
     .nav__bar {
         padding: 0;
     }
-    .container {
-        padding: 17px;
-    }
+    // .header__wrap-top {
+    //     padding: 17px;
+    // }
     .menu__btn {
         display: none;
     }
