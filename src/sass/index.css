@@ -1,6 +1,5 @@
 @media screen and (min-width: 480px) {
   .container {
-.container {
   width: 320px;
   padding-left: 20px;
   padding-right: 20px;
@@ -79,7 +78,7 @@
   color: #131313;
   padding: 12px 34px;
   margin-left: 73px;
-
+}
 .header {
   background-color: var(--background-color);
   height: 100vh;
@@ -543,5 +542,4 @@
 
 .products__arrow {
   fill: black;
->>>>>>> main
-}/*# sourceMappingURL=index.css.map */
+  }
