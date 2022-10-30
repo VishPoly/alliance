@@ -1,7 +1,8 @@
 input::-webkit-input-placeholder {  color: #131313 }
 
 .footer-modal{
-    position: absolute;
+    z-index: 50;
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);

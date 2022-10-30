@@ -510,8 +510,7 @@
   color: var(--black-text-color);
   margin-top: 123px;
   margin-bottom: 40px;
-}
-@media screen and (min-width: 1200px) {
+  }
   .products__type {
     margin-top: 166px;
   }
@@ -540,6 +539,6 @@
   }
 }
 
-.products__arrow {
+.products__arrow{
   fill: black;
   }
