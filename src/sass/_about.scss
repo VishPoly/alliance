@@ -1,7 +1,7 @@
 .about {
     background: #84a178;
 
-    @media screen and (min-width: 1198px) {
+    @media screen and (min-width: 1200px) {
         margin-bottom: -1px;
     }
 }
@@ -19,7 +19,7 @@
     margin-bottom: 12px;
     padding-top: 60px;
 
-    @media screen and (min-width: 779px) {
+    @media screen and (min-width: 768px) {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 800;
@@ -34,7 +34,7 @@
         color: #fcfcfc;
     }
 
-    @media screen and (min-width: 1198px) {
+    @media screen and (min-width: 1200px) {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 800;
@@ -68,7 +68,7 @@
         margin: auto;
     }
 
-    @media screen and (min-width: 779px) {
+    @media screen and (min-width: 768px) {
         font-family: 'Seymour One';
         font-style: normal;
         font-weight: 400;
@@ -83,7 +83,7 @@
         color: #fcfcfc;
     }
 
-    @media screen and (min-width: 1198px) {
+    @media screen and (min-width: 1200px) {
         font-family: 'Seymour One';
         font-style: normal;
         font-weight: 400;
@@ -107,15 +107,19 @@
         width: 220px;
     }
 
-    @media screen and (min-width: 1198px) {
+    @media screen and (min-width: 1200px) {
         width: 463px;
         height: 257px;
+        display: contents;
     }
 }
 
 
 .about__block {
     margin-top: 40px;
+    @media screen and (min-width: 320px) {
+            padding-bottom: 41px;
+        }
 
     @media screen and (min-width: 768px) {
         margin-top: 13px;
@@ -149,7 +153,7 @@
         width: 334px;
     }
 
-    @media screen and (min-width: 1198px) {
+    @media screen and (min-width: 1200px) {
         width: 463px;
         font-family: 'Montserrat';
         font-style: normal;
@@ -183,7 +187,7 @@
         width: 334px;
     }
 
-    @media screen and (min-width: 1198px) {
+    @media screen and (min-width: 1200px) {
         width: 463px;
         width: 463px;
         font-family: 'Montserrat';
@@ -217,7 +221,7 @@
         width: 334px;
     }
 
-    @media screen and (min-width: 1198px) {
+    @media screen and (min-width: 1200px) {
         width: 463px;
         width: 463px;
         width: 463px;
@@ -242,7 +246,7 @@
         justify-content: start;
     }
 
-    @media screen and (min-width: 1198px) {
+    @media screen and (min-width: 1200px) {
         margin-top: auto;
     }
 }
@@ -257,7 +261,7 @@
         height: 356px;
     }
 
-    @media screen and (min-width: 1190px) {
+    @media screen and (min-width: 1200px) {
         width: 500px;
         height: 500px;
     }
@@ -292,6 +296,16 @@
     color: #131313;
     margin-bottom: 61px;
 
+    &:hover{
+        background-color: #0A8817;
+        color: #000000;
+    }
+    &:focus{
+        background-color: #0A8817;
+        color: #fcfcfc;
+        
+
+    }
     @media screen and (min-width: 768px) {
         margin-top: 48px;
     }
