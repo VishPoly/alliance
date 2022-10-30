@@ -1,0 +1,237 @@
+.about {
+    background: #84A178;
+    height: 100%;
+    margin: -1px;
+    
+    @media screen and(min-width: 768px) {
+        margin-bottom: -20px;
+    }
+}
+
+.about-tradition {
+    
+    @media screen and(min-width: 320px){
+    }
+    max-width: 210px;
+    color: var(--white-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 12px;
+
+    margin-bottom: 12px;
+    padding-top: 60px;
+    @media screen and(min-width: 768px){
+
+    }
+}
+
+.about-title {
+    @media screen and(min-width: 320px) {
+    }
+    max-width: 210px;
+    color: var(--white-text-color);
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.26;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+        margin: 0 auto;
+
+        margin-bottom: 32px;
+}
+
+.about-cows{
+    @media screen and(min-width: 768px){
+        display: flex;
+        
+    }
+}
+
+.about-cow{
+    @media screen and(min-width: 320px) {
+    }
+    // width: 480px;
+    display: flex;
+    justify-content: center;
+    @media screen and(min-width: 768px) {
+        // position: absolute;
+        margin-left: 32px;
+    }
+    
+}
+
+
+.about-all {
+    @media screen and(min-width: 320px) {
+    }
+        max-width: 480px;
+    @media screen and(min-width: 768px) {
+        margin-left: 32px;
+        }
+}
+
+.about-info {
+    width:220px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    @media screen and(min-width: 768px) {
+        // text-align: end
+        width: 336px;
+    }
+}
+
+.about-info-first {
+    @media screen and(min-width: 320px) {
+    max-width: 480px;
+    }
+    color: var(--white-text-color);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.75;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-top: 40px;
+    margin-bottom: 4px;
+    @media screen and(min-width: 768px) {
+    margin-bottom: 8px;
+}
+    
+}
+.about-info-second {
+    @media screen and(min-width: 320px) {
+    max-width: 480px;
+}
+    
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.58;
+
+    text-align: center;
+    color: var(--white-text-color);
+    margin-bottom: 21px;
+    @media screen and(min-width: 768px) {
+    margin-bottom: 0px;
+        }
+}
+
+.about-info-third{
+    display: none;
+    @media screen and(min-width: 768px) {
+        display: flex;
+        color: var(--white-text-color);
+        font-weight: 400;
+        font-size: 12px;
+        line-height:1.91;
+        letter-spacing: 0.04em;
+        margin-top: 8px;
+
+    }
+    
+}
+
+.about-more {
+    border: none;
+    flex-wrap: wrap;
+    color: var(--black-text-color);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    width: 164px;
+    height: 42px;
+    cursor: pointer;
+    margin-bottom: 41px;
+  
+    margin: auto;
+    @media screen and(min-width: 768px) {
+        margin-top: 48px;
+    }
+
+}
+
+.about-cow-img{
+    margin-left: 9px;
+
+}
+
+// .about-frame{
+//     margin-left: 5px;
+    
+// }
+
+// .about-list {
+//     @media screen and(min-width: 320px) {   
+//     }
+//     max-width: 480px;
+//     display: flex;
+//     flex-wrap: wrap;
+//     align-items: center;
+//     justify-content: center;
+//     margin-top: 41px;
+//     @media screen and(min-width: 768px){
+//         flex-wrap: nowrap;
+//         gap: 131px;
+//     }
+// }
+
+// .about-item {
+//     flex-direction: column;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin-bottom: 27px;
+    
+// }
+
+// .about-link{
+//     border-radius: 25px;
+//     width: 50px;
+//     height: 50px;
+//     background-color: var(--accent-color);
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+// // .about-icon {
+// //     background-color: var(--accent-color);
+// //     border-radius: 25px;
+// //     width: 50px;
+// //     height: 50px;
+// // }
+
+// .about-numbers {
+//     color: var(--white-text-color);
+//     font-family: 'Roboto';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 36px;
+//     line-height: 1.16;
+//     text-align: center;
+//     letter-spacing: 0.04em;
+//     text-transform: uppercase;
+//     margin-top: 16px;
+    
+// }
+
+// .about-description {
+//     color: var(--white-text-color);
+//     font-weight: 700;
+//     font-size: 12px;
+//     line-height: 1.66;
+//     text-align: center;
+//     margin-top: 18px;
+// }

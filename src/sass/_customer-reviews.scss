@@ -1,0 +1,88 @@
+.reviews {
+    background-image: 
+        url(../photo/advantages/ice-fone-des.jpg);
+}
+.reviews-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    @media screen and(min-width: 320px) {  
+        }
+    
+        @media screen and(min-width: 768px) {  
+        }
+        @media screen and(min-width: 1200px) {
+            display: block;
+
+        }
+}
+
+.reviews-team {
+    border-radius: 50%;
+    flex-wrap: wrap;
+    @media screen and(min-width: 480px) {
+
+    }
+    
+        @media screen and(min-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+        margin-top: 60px;
+        flex-wrap: wrap;
+        }
+    
+        @media screen and(min-width: 1200px) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+        margin-top: 60px;
+        }
+}
+
+.reviews-text{
+    border-radius: 24px;
+    background-color: var(--background-color);
+    color: var(--white-text-color);
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+    @media screen and(min-width: 480px) {}
+    
+        @media screen and(min-width: 768px) {
+            margin-left: auto;
+                margin-right: auto;
+                width: 705px;
+                padding: 39px 109px 47px;
+                margin-bottom: 32px;
+        }
+
+        @media screen and(min-width: 1200px) {
+            margin-left: auto;
+            margin-right: auto;
+            width: 968px;
+            padding: 39px 109px 47px;
+            margin-bottom: 32px;
+        }
+}
+.reviews-city {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    text-align: center;
+    @media screen and(min-width: 480px) {}
+    
+        @media screen and(min-width: 768px) {
+            margin-bottom: 32px;
+        }
+        @media screen and(min-width: 1200px) {
+            margin-left: auto;
+            margin-right: auto;
+            // width: 968px;
+            padding: 39px 109px 47px;
+            margin-bottom: 32px;
+        }
+}
