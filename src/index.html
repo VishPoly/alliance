@@ -30,7 +30,7 @@
   </head>
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/hero-header.html"></include>
+    <include src="../src/partials/hero-header.html"></include>
     <include src="./partials/modal-menu.html"></include>
     <include src="./partials/products.html"></include>
     <include src="./partials/about.html"></include>
@@ -47,15 +47,16 @@
       AOS.init();
     </script>
     <script src="./js/menu.js"></script>
+    <script src="./js/products-modal.js"></script>
     <script src="./js/modal.js"></script>
     <script src="./js/footer-loc-modal.js"></script>
     <script src="./js/footer-read-modal.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    
+
     <script>
-      var swiper = new Swiper(".mySwiper", {
+      var swiper = new Swiper('.mySwiper', {
         pagination: {
-          el: ".swiper-pagination",
+          el: '.swiper-pagination',
         },
       });
       var swiper = new Swiper('.mySwiper', {});

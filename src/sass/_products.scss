@@ -164,7 +164,7 @@
   background-size: cover;
 
   @media screen and(min-width:400px) {
-    padding: 164px 50px 0px 50px;
+    padding: 164px 50px 60px 50px;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -336,6 +336,8 @@
 
 .products__modal {
   margin-bottom: 20px;
+  width: 50px;
+  height: 20px;
   background-color: transparent;
   border: none;
 
@@ -346,4 +348,18 @@
 
 .products__arrow {
   fill: black;
+}
+
+.products__modal:hover,
+.products__modal:focus {
+  transform: scale(1.5);
+  transition: scale 250ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    fill 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:hover .products__arrow {
+    fill: #fff;
+    transform: fill , scale(1.5);
+    transition: fill 250ms cubic-bezier(0.075, 0.82, 0.165, 1),
+      scale 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
 }
