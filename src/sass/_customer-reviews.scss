@@ -1,6 +1,11 @@
-.reviews {
+.cursomer{
     background-image: 
         url(../photo/advantages/ice-fone-des.jpg);
+        width: 1195px;
+            height: 1097px;
+            left: 0px;
+            top: 0px;
+            justify-content: center;
 }
 .reviews-block {
     display: flex;
@@ -11,8 +16,9 @@
         }
     
         @media screen and(min-width: 768px) {  
-        }
+        } 
         @media screen and(min-width: 1200px) {
+            width: 1200px;
             display: block;
 
         }
@@ -85,4 +91,20 @@
             padding: 39px 109px 47px;
             margin-bottom: 32px;
         }
+}
+
+
+
+.gallery-link {
+    padding: 93px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gallery-photo {
+    height: 100%;
+    width: 1013px;
+    border-radius: 24px;
 }
