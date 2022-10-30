@@ -1,32 +1,8 @@
-:root {
-  --text-main: 'DM Sans', sans-serif;
-  --text-secondary: 'Titan One', cursive;
-
-  --color-design-main: #d41443;
-  --color-design-white: #ffffff;
-  --color-design-black: #000000;
-  --color-subtitle: #ababab;
-  --color-description: #d6936d;
-  --color-line-in-contacts: #e1e1e1;
-
-  --bg-section: #84a178;
-  --bg-btn-dark: #d41443;
-  --bg-btn-dark-hover: #c7133e;
-  --bg-btn-light: #ffffff;
-  --bg-btn-light-hover: #ecebeb;
-  --bg-quote: #fafafa;
-  --bg-social: #fea5bb;
-  --bg-header-hero: #ffb8ca;
-  --bg-mobile-menu: #e17992;
-  --bg-beige-color: #f8d24e;
-  --bg-green-color: #c2e297;
-}
-
 // фон и позиция фона + паддинги секции
 .contacts {
   padding: 48px 0 39px;
   margin: 0 auto;
-  background-color: var(--bg-section);
+  background-color: var(--background-color);
   background-repeat: no-repeat;
   background-position: center center;
 
@@ -68,8 +44,8 @@
 }
 
 .contacts__item-title {
-  background: var(--bg-beige-color);
-  color: #131313;
+  background: #f8d24e;
+  color: var(--black-text-color);
   text-transform: uppercase;
   display: inline-flex;
   padding: 0 25px;
@@ -118,12 +94,12 @@
   padding: 40px 32px;
   font-size: 12px;
   line-height: 1.86;
-  background: var(--color-design-white);
+  background: #ffffff;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
 
   &--black {
-    color: var(--color-design-black);
+    color: #000000;
     @media screen and (min-width: 1200px) {
       font-family: 'Montserrat';
       font-style: normal;
@@ -134,17 +110,17 @@
 
       letter-spacing: 0.04em;
 
-      color: #131313;
+      color: var(--black-text-color);
     }
   }
 
   &--grey {
-    color: var(--color-description);
+    color: #d6936d;
     line-height: 1.5;
   }
 
   &--purple {
-    color: var(--color-subtitle);
+    color: var(--time-color);
   }
 
   &:last-child {
@@ -156,7 +132,7 @@
   .contacts__link {
     line-height: 1.5;
     text-decoration: none;
-    color: #131313;
+    color: var(--black-text-color);
 
     @media screen and (min-width: 768px) {
       line-height: 1.83;
@@ -205,7 +181,7 @@
 
       letter-spacing: 0.04em;
 
-      color: #131313;
+      color: var(--black-text-color);
     }
     @media screen and (min-width: 1200px) {
       font-family: 'Montserrat';
@@ -217,7 +193,7 @@
 
       letter-spacing: 0.04em;
 
-      color: #131313;
+      color: var(--black-text-color);
     }
   }
 
@@ -258,7 +234,7 @@
   width: 100%;
   margin: 24px 0;
   content: '';
-  border-bottom: 1px solid var(--color-line-in-contacts);
+  border-bottom: 1px solid #e1e1e1;
 
   @media screen and (min-width: 768px) {
     margin: 32px 0;
@@ -284,7 +260,7 @@
 
 .contacts__link {
   &--grey {
-    color: var(--color-description);
+    color: #d6936d;
   }
 }
 
@@ -313,7 +289,7 @@
     gap: 6px;
     width: 196px;
     height: 42px;
-    fill: #131313;
+    fill: var(--black-text-color);
     border: 0;
     background: #f8d24e;
     border-radius: 10px;
@@ -328,7 +304,7 @@
     align-items: center;
     text-align: center;
 
-    color: #131313;
+    color: var(--black-text-color);
 
     @media screen and (min-width: 768px) {
       padding: 0 34px;
@@ -345,7 +321,7 @@
     gap: 6px;
     width: 196px;
     height: 42px;
-    fill: #131313;
+    fill: var(--black-text-color);
     border: 2px solid #f8d24e;
     background: transparent;
     border-radius: 10px;
@@ -360,7 +336,7 @@
     align-items: center;
     text-align: center;
 
-    color: #131313;
+    color: var(--black-text-color);
 
     @media screen and (min-width: 768px) {
       padding: 0 41px;
@@ -394,7 +370,7 @@
 
 .footer {
   margin-top: -1px;
-  background-color: var(--bg-section);
+  background-color: var(--background-color);
 
   &__text {
     max-width: 234px;
@@ -411,7 +387,7 @@
     line-height: 22px;
     text-transform: uppercase;
 
-    color: #fcfcfc;
+    color: var(--white-text-color);
   }
 
   &__text-slog {
@@ -423,7 +399,7 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
 
-    color: #fcfcfc;
+    color: var(--white-text-color);
   }
 
   &__social-list {
@@ -440,7 +416,7 @@
     display: flex;
     width: 32px;
     height: 32px;
-    color: #84a178;
+    color: var(--background-color);
     background-color: #f8d24e;
     border-radius: 50%;
     justify-content: center;
@@ -451,11 +427,11 @@
 
     &:hover {
       background-color: #f8d24e;
-      color: #fcfcfc;
+      color: var(--white-text-color);
     }
     &:focus {
       background-color: #f8d24e;
-      color: #fcfcfc;
+      color: var(--white-text-color);
       transform: scale(1.2);
     }
   }
@@ -472,23 +448,24 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 1.833;
-    color: var(--color-design-black);
+    color: #000000;
     margin-bottom: 40px;
   }
 
   &__contact-link {
     margin-left: 3px;
-    color: #fcfcfc;
+    color: var(--white-text-color);
   }
 
   &__copyright {
-    border-top: 1px solid #e1e1e1;
+    // border-top: 1px solid #e1e1e1;
     min-height: 83px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 16px;
     padding-bottom: 62px;
+    flex-direction: column-reverse;
     @media screen and (min-width: 1198px) {
       margin-left: 16px;
       margin-right: 16px;
@@ -497,16 +474,59 @@
       padding-bottom: 13px;
     }
   }
+  &__copyright::after {
+    content: '';
+    border-bottom: 1px solid #e1e1e1;
+    width: 320px;
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+      margin-bottom: 16px;
+    }
+    @media screen and (min-width: 768px) {
+      width: 768px;
+      margin-bottom: 14px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 1168px;
+    }
+  }
 
   &__copyright-text {
-    width: 180px;
-    font-family: var(--text-main);
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
-    color: #7a7a7a;
+    color: var(--footer-button);
     padding: 0 20px;
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+      width: 187px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 152%;
+      /* or 21px */
+
+      text-align: center;
+
+      color: #7a7a7a;
+    }
+    @media screen and (min-width: 768px) {
+      width: 255px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 186%;
+      /* or 22px */
+
+      letter-spacing: 0.02em;
+
+      color: #7a7a7a;
+    }
+    @media screen and (min-width: 1200px) {
+    }
   }
 }
 
@@ -594,7 +614,7 @@
       letter-spacing: 0.06em;
       text-transform: uppercase;
 
-      color: #fcfcfc;
+      color: var(--white-text-color);
     }
 
     &__contact-tel {
@@ -604,7 +624,7 @@
     }
 
     &__copyright-text {
-      width: 316px;
+      width: 338px;
       font-size: 14px;
       line-height: 1.5;
       letter-spacing: 0.02em;
@@ -621,6 +641,7 @@
   }
 }
 .footer__contact {
+  // padding-right: 16px;
   @media screen and (min-width: 480px) {
     display: flex;
     flex-direction: column;
@@ -646,7 +667,7 @@
       letter-spacing: 0.04em;
       text-transform: uppercase;
 
-      color: #fcfcfc;
+      color: var(--white-text-color);
       width: 504px;
     }
 
@@ -661,7 +682,7 @@
       letter-spacing: 0.06em;
       text-transform: uppercase;
 
-      color: #fcfcfc;
+      color: var(--white-text-color);
     }
 
     &__social-list {
@@ -686,28 +707,28 @@
 
     letter-spacing: 0.02em;
 
-    color: #131313;
+    color: var(--black-text-color);
     margin-left: auto;
   }
 }
 .btn-dark:hover {
-  background: #0a8817;
+  background: var(--button-color);
 }
 .btn-dark:focus {
-  background: #0a8817;
-  color: #fcfcfc;
+  background: var(--button-color);
+  color: var(--white-text-color);
 }
 .btn-dark:focus .contacts__arrow {
-  fill: #fcfcfc;
+  fill: var(--white-text-color);
 }
 
 .btn-light:hover {
-  border-color: #0a8817;
+  border-color: var(--button-color);
 }
 .btn-light:focus {
-  border-color: #0a8817;
-  color: #fcfcfc;
+  border-color: var(--button-color);
+  color: var(--white-text-color);
 }
 .btn-light:focus .contacts__arrow {
-  fill: #fcfcfc;
+  fill: var(--white-text-color);
 }
