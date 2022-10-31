@@ -54,7 +54,9 @@
 .reviews-team {
     border-radius: 50%;
     margin-bottom: 30px;
-    flex-direction: column;
+    margin: 0 auto;
+
+    
 
     // @media screen and(min-width: 480px) {
         
@@ -86,6 +88,7 @@
     font-size: 16px;
     line-height: 186%;
     letter-spacing: 0.04em;
+    margin-top: 28px;
 
     @media screen and(min-width: 320px) {
         padding: 34px 39px;
