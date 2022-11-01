@@ -15,7 +15,7 @@
     visibility: hidden;        
 }
 
-.backdrop.is-hidden .modal {
+.backdrop.is-hidden .location-modal {
     transform: translate(0%, -100%) scale(0);
         
 }
@@ -25,6 +25,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    transition: transform 700ms;
     width: 280px;
     height: 365px;
     background: #FCFCFC;
