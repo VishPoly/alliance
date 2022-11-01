@@ -1,21 +1,23 @@
 .cursomer {
     background-image:
         url(../photo/advantages/ice-fone-des.jpg);
-        height: 1020px;
+        
     left: 0px;
     top: 0px;
     justify-content: center;
-    position: relative;
+    
 }
+// .gallery-no{
+//     // height: 456px;
+//     position: relative;
+// }
 // -----------------gallery------------------ //
 .gallery-link {
-    // position: absolute;
-    // top: -50px;
     padding: 93px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    // z-index: 5;
+    z-index: 5;
     // overflow: hidden;
 
 }
