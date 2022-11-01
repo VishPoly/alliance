@@ -567,8 +567,23 @@
   }
   @media screen and (min-width: 1200px) {
     width: 288px;
-    text-decoration-line: underline;
   }
+}
+.contacts__item--grey-body:hover,
+.contacts__item--grey-body:focus {
+  text-decoration: underline;
+}
+.contacts__item--grey-header:hover,
+.contacts__item--grey-header:focus {
+  text-decoration: underline;
+}
+.contacts__item--grey-footer:hover,
+.contacts__item--grey-footer:focus {
+  text-decoration: underline;
+}
+
+.contacts__item--exile {
+  color: #d6936d;
 }
 .contacts__item--grey-footer {
   width: 185px;
