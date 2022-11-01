@@ -340,9 +340,10 @@
   height: 20px;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 
   @media screen and(min-width:1200px) {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 }
 
