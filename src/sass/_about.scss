@@ -319,10 +319,17 @@
     }
     &:focus{
         background-color: var(--button-color);
-        color: var(--white-text-color);
+        fill: var(--white-text-color);
         
         
 
+    }
+     &:focus {
+        background-color: var(--button-color);
+        color: var(--white-text-color);
+    
+    
+    
     }
     @media screen and (min-width: 768px) {
         margin-top: 48px;
@@ -335,7 +342,4 @@
     }
 }
 
-.about-icon:focus{
-    fill: #fcfcfc;
-    
-}
+
