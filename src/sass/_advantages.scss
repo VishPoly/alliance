@@ -6,7 +6,7 @@
 }
 
 .advantages__icon {
-  background: #f8d24e;
+  background: var(--accent-color);
   border-radius: 25px;
   width: 50px;
   height: 50px;
@@ -45,7 +45,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
 
-  color: #fcfcfc;
+  color: var(--white-text-color);
   margin-bottom: 18px;
 
   @media screen and (min-width: 768px) {
@@ -58,7 +58,7 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
 
-    color: #fcfcfc;
+    color: var(--white-text-color);
   }
 
   @media screen and (min-width: 1198px) {
@@ -71,7 +71,7 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
 
-    color: #fcfcfc;
+    color: var(--white-text-color);
     margin-top: 40px;
   }
 }
@@ -86,7 +86,7 @@
 
   text-align: center;
 
-  color: #fcfcfc;
+  color: var(--white-text-color);
   margin-bottom: 28px;
 
   @media screen and (min-width: 768px) {
@@ -102,7 +102,7 @@
 
     text-align: center;
 
-    color: #fcfcfc;
+    color: var(--white-text-color);
   }
 
   @media screen and (min-width: 1198px) {
