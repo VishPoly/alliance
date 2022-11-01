@@ -321,6 +321,7 @@
         background-color: #0A8817;
         color: #fcfcfc;
         
+        
 
     }
     @media screen and (min-width: 768px) {
@@ -334,3 +335,7 @@
     }
 }
 
+.about-icon:focus{
+    fill: #fcfcfc;
+    
+}
