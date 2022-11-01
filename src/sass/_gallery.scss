@@ -5,14 +5,18 @@
     left: 0px;
     top: 0px;
     justify-content: center;
-    
+    position: relative;
 }
 // -----------------gallery------------------ //
 .gallery-link {
+    // position: absolute;
+    // top: -50px;
     padding: 93px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    // z-index: 5;
+    // overflow: hidden;
 
 }
 
