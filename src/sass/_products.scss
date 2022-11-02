@@ -3,8 +3,8 @@
   padding-top: 60px;
   margin: 0 auto;
   max-width: 100%;
-  background-image: url(../photo/products/background/background-image-1-mobile-min.png);
   background-size: contain;
+  background-image: url(../photo/products/background/background-image-1-mobile-min.png);
 
   @media screen and(min-width:480px) {
     background-image: url(../photo/products/background/background-image-tablet-min.png);
@@ -17,9 +17,7 @@
     background-size: cover;
     padding: 60px 32px 0px 32px;
     max-width: 100%;
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../photo/products/background/background-image-tablet-2x-min.png);
     }
   }
@@ -30,9 +28,7 @@
     background-size: cover;
     padding: 60px 12px 0px 12px;
     max-width: 100%;
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../photo/products/background/background-image-desctop-2x-min.png);
     }
   }
@@ -45,7 +41,7 @@
 }
 
 .products__about {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -63,7 +59,7 @@
 }
 
 .products__title {
-  font-family: 'Seymour One';
+  font-family: "Seymour One";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -102,9 +98,7 @@
 
   @media screen and(min-width:400px) {
     padding: 148px 50px 0px 50px;
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     }
   }
 
@@ -126,9 +120,7 @@
 
   @media screen and(min-width:400px) {
     padding: 164px 50px 0px 50px;
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     }
   }
 
@@ -150,9 +142,7 @@
 
   @media screen and(min-width:400px) {
     padding: 164px 50px 60px 50px;
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     }
   }
 
@@ -198,7 +188,7 @@
     height: 535px;
   }
 }
- 
+
 .products__wrap.ice-coffee {
   position: relative;
   display: flex;
@@ -278,7 +268,7 @@
 }
 
 .products__type {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -297,7 +287,7 @@
 }
 
 .products__description {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

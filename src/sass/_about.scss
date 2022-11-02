@@ -1,9 +1,8 @@
 .about {
     background: var(--background-color);
-    
+
     @media screen and (min-width: 1200px) {
         margin-bottom: -1px;
-        
     }
 }
 
@@ -18,21 +17,21 @@
 //     }
 
 //     @media screen and (min-width: 1200px) {
-//           width: 1200px;  
-    
+//           width: 1200px;
+
 //         }
 // }
 
-.frame{
+.frame {
     @media screen and (min-width: 1200px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .about__title {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -45,7 +44,7 @@
     padding-top: 60px;
 
     @media screen and (min-width: 768px) {
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         font-style: normal;
         font-weight: 800;
         font-size: 22px;
@@ -60,7 +59,7 @@
     }
 
     @media screen and (min-width: 1200px) {
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         font-style: normal;
         font-weight: 800;
         font-size: 30px;
@@ -76,7 +75,7 @@
 }
 
 .about__tittle {
-    font-family: 'Seymour One';
+    font-family: "Seymour One";
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -94,7 +93,7 @@
     }
 
     @media screen and (min-width: 768px) {
-        font-family: 'Seymour One';
+        font-family: "Seymour One";
         font-style: normal;
         font-weight: 400;
         font-size: 34px;
@@ -109,7 +108,7 @@
     }
 
     @media screen and (min-width: 1200px) {
-        font-family: 'Seymour One';
+        font-family: "Seymour One";
         font-style: normal;
         font-weight: 400;
         font-size: 36px;
@@ -129,8 +128,6 @@
         // display: flex;
         flex-direction: column;
         gap: 8px;
-        width: 220px;
-        
     }
 
     @media screen and (min-width: 1200px) {
@@ -140,12 +137,11 @@
     }
 }
 
-
 .about__block {
     margin-top: 40px;
     @media screen and (min-width: 320px) {
-            padding-bottom: 41px;
-        }
+        padding-bottom: 41px;
+    }
 
     @media screen and (min-width: 768px) {
         margin-top: 13px;
@@ -154,14 +150,13 @@
         justify-content: center;
         margin-left: 32px;
     }
-        @media screen and (min-width: 1200px) {
-            
-            margin-left: 100px;
-        }
+    @media screen and (min-width: 1200px) {
+        margin-left: 100px;
+    }
 }
 
 .about__link__item--one {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -181,7 +176,7 @@
 
     @media screen and (min-width: 1200px) {
         width: 463px;
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -195,7 +190,7 @@
 }
 
 .about__link__item--two {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -216,7 +211,7 @@
     @media screen and (min-width: 1200px) {
         width: 463px;
         width: 463px;
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -231,7 +226,7 @@
 
 .about__link__item--three {
     display: none;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -251,7 +246,7 @@
         width: 463px;
         width: 463px;
         width: 463px;
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -296,6 +291,7 @@
 .about__block--flex {
     @media screen and (min-width: 768px) {
         display: flex;
+        justify-content: center;
     }
 }
 
@@ -307,7 +303,7 @@
     min-height: 42px;
     cursor: pointer;
 
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -323,26 +319,20 @@
     color: var(--black-text-color);
     margin-bottom: 61px;
 
-    &:hover{
+    &:hover {
         background-color: var(--button-color);
         color: var(--black-text-color);
         transition: color transform 250ms ease-in-out;
     }
-    &:focus{
+    &:focus {
         background-color: var(--button-color);
         fill: var(--white-text-color);
         transition: fill 250ms ease-in-out;
-        
-        
-
     }
-     &:focus {
+    &:focus {
         background-color: var(--button-color);
         color: var(--white-text-color);
         transition: color 250ms ease-in-out;
-    
-    
-    
     }
     @media screen and (min-width: 768px) {
         margin-top: 48px;
@@ -354,5 +344,3 @@
         margin-top: -15px;
     }
 }
-
-
