@@ -1,141 +1,150 @@
-<div class="header__hero-background" id="header">
+<div class="header__hero-background img container">
   <div class="hero__img">
-    <div class="container">
-      <header class="header">
-        <nav class="nav__bar">
-          <!-- logo -->
-          <a class="nav__logo-link" href="./index.html">
-            <img
-              class="nav__logo-img"
-              src="./photo/hero/logo@d1x.png"
-              alt="icecream logo"
-            />
-          </a>
+    <header class="header">
+      <nav class="nav__bar">
+        <!-- logo -->
+        <a class="nav__logo-link" href="./index.html" data-aos="zoom-in-right">
+          <img
+            class="nav__logo-img"
+            src="./photo/hero/logo@d1x.png"
+            alt="icecream logo"
+          />
+        </a>
 
-          <!-- links navigation -->
-          <div class="nav__links">
-            <ul class="nav__links-list">
-              <li class="nav__links-item">
-                <a href="#header" class="nav__link">Home</a>
-              </li>
+        <!-- links navigation -->
+        <div class="nav__links">
+          <ul
+            class="nav__links-list"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <li class="nav__links-item">
+              <a href="#header" class="nav__link">Home</a>
+            </li>
 
-              <li class="nav__links-item">
-                <a href="#How it’s made" class="nav__link active"
-                  >How it’s made?</a
-                >
-              </li>
+            <li class="nav__links-item">
+              <a href="#how-its-made" class="nav__link active"
+                >How it’s made?</a
+              >
+            </li>
 
-              <li class="nav__links-item">
-                <a href="#Our products" class="nav__link">Our products</a>
-              </li>
+            <li class="nav__links-item">
+              <a href="#our-products" class="nav__link">Our products</a>
+            </li>
 
-              <li class="nav__links-item">
-                <a href="#Contact" class="nav__link">Contact</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="nav__menu">
-            <!-- burger menu -->
-
-            <button
-              class="menu__btn"
-              data-menu-open
-              type="button"
-              aria-expanded="false"
-              aria-controls="mobile-menu"
-            >
-              <svg class="menu__btn-icon" width="32" height="32">
-                <use href="./svg/symbol-defs.svg#icon-menu"></use>
-              </svg>
-            </button>
-
-            <!-- buy button -->
-
-            <button type="button" class="header__btn btn">
-              Buy now
-              <svg class="header__btn-icon" width="10" height="14">
-                <use
-                  href="./svg/symbol-defs.svg#icon-iconmonstr-arrow-24"
-                ></use>
-              </svg>
-            </button>
-          </div>
-        </nav>
-      </header>
-
-      <!-- hero section  -->
-      <section class="hero">
-        <div class="hero__content">
-          <div class="hero__wrap">
-            <!-- hero title -->
-
-            <h1 class="hero__title">
-              ice cream <span class="hero__title-first">made with</span>
-              <span class="hero__title-span">passion</span>
-            </h1>
-
-            <!-- hero link (Products & How it’s made?)-->
-
-            <ul class="hero__links">
-              <li class="hero__item">
-                <a href="#Our products" class="hero__link">Products</a>
-              </li>
-              <li class="hero__item">
-                <a href="#How it’s made" class="hero__link-made"
-                  >How it’s made?</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="hero__stats">
-            <ul class="hero__stats-item">
-              <li class="stats">
-                <p class="stat__title"><b class="stats__num">16</b> cafes</p>
-              </li>
-              <li class="stats">
-                <p class="stat__title">
-                  <b class="stats__num">23</b> food trucks
-                </p>
-              </li>
-            </ul>
-          </div>
+            <li class="nav__links-item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
         </div>
-        <!-- hero stats -->
-        <!-- hero description -->
-        <section class="hero__description">
-          <div class="hero__img-wrap">
-            <picture>
-              <source
-                srcset="
-                  ./photo/hero/plate@d1x.png 1x,
-                  ./photo/hero/plate@d2x.png 2x
-                "
-                media="(min-width: 1200px)"
-              />
-              <source
-                srcset="
-                  ./photo/hero/plate@t1x.png 1x,
-                  ./photo/hero/plate@t2x.png 2x
-                "
-                media="(min-width: 768px)"
-              />
-              <img src="./photo/hero/plate@t1x.png" alt="plate icecream" />
-            </picture>
-          </div>
-          <div class="hero__description-item">
-            <p class="hero__description-title">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et
-            </p>
-            <a href="#" class="hero__description-link">
-              <svg class="hero__description-icon" width="40" height="32">
-                <use href="./svg/symbol-defs.svg#icon-Frame"></use>
-              </svg>
-            </a>
-          </div>
-        </section>
+
+        <div class="nav__menu">
+          <!-- burger menu -->
+
+          <button
+            class="menu__btn"
+            data-menu-open
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="menu__btn-icon" width="32" height="32">
+              <use href="./svg/symbol-defs.svg#icon-menu"></use>
+            </svg>
+          </button>
+
+          <!-- buy button -->
+
+          <button type="button" class="header__btn" data-aos="zoom-in-left">
+            Buy now
+            <svg class="header__btn-icon" width="10" height="14">
+              <use href="./svg/symbol-defs.svg#icon-iconmonstr-arrow-24"></use>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero section  -->
+    <section class="hero">
+      <div class="hero__content">
+        <div class="hero__wrap" data-aos="zoom-in-right">
+          <!-- hero title -->
+
+          <h1 class="hero__title">
+            ice cream <span class="hero__title-first">made with</span>
+            <span class="hero__title-span">passion</span>
+          </h1>
+
+          <!-- hero link (Products & How it’s made?)-->
+
+          <ul class="hero__links" data-aos="fade-down" data-aos-duration="2000">
+            <li class="hero__item">
+              <a href="#Our products" class="hero__link">Products</a>
+            </li>
+            <li class="hero__item">
+              <a href="#How it’s made" class="hero__link-made"
+                >How it’s made?</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="hero__stats" data-aos="zoom-in-left">
+          <ul class="hero__stats-item">
+            <li class="stats">
+              <p class="stat__title"><b class="stats__num">16</b> cafes</p>
+            </li>
+            <li class="stats">
+              <p class="stat__title">
+                <b class="stats__num">23</b> food trucks
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- hero description -->
+      <section
+        class="hero__description"
+        data-aos="fade-right"
+        data-aos-duration="2000"
+      >
+        <div class="hero__img-wrap" data-aos="zoom-in-right">
+          <picture>
+            <source
+              srcset="
+                ./photo/hero/plate@d1x.png 1x,
+                ./photo/hero/plate@d2x.png 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                ./photo/hero/plate@t1x.png 1x,
+                ./photo/hero/plate@t2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <img src="./photo/hero/plate@t1x.png" alt="plate icecream" />
+          </picture>
+        </div>
+        <div class="hero__description-item">
+          <p
+            class="hero__description-title"
+            class="hero__description"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et
+          </p>
+          <a href="#" class="hero__description-link">
+            <svg class="hero__description-icon" width="40" height="32">
+              <use href="./svg/symbol-defs.svg#icon-Frame"></use>
+            </svg>
+          </a>
+        </div>
       </section>
-    </div>
+    </section>
   </div>
 </div>
