@@ -22,24 +22,17 @@ input::-webkit-input-placeholder {  color: #131313 }
 }
 
 .footer-modal{
-    z-index: 50;
-    position: fixed;
+    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    margin-left: auto;
-    margin-right: auto;
+    transition: transform 700ms;
     width: 280px;
     height: 674px;
     background: #FCFCFC;
     border: 2px solid #F8D24E;
     border-radius: 10px;
     @media screen and (min-width: 768px) {
-        width: 568px;
-        height: 668px;
-    }
-
-    @media screen and (min-width: 1200px) {
         width: 568px;
         height: 668px;
     }
