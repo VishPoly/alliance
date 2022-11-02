@@ -8,22 +8,20 @@
     background-position: bottom;
     background-position: 50% 450px;
     background-size: contain;
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
 
     @media screen and (min-width: 768px) {
         background-image: url(../photo/hero/dot@t1x.png);
         background-position: 50% 346px;
-        max-width: 768px;
         height: 415px;
+        width: 100%;
     }
     @media screen and (min-width: 1200px) {
         background-image: url(../photo/hero/dot@d1x.png);
         background-position: 50% 278px;
-        max-width: 1200px;
+        max-width: 100%px;
         height: 664px;
-        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -35,6 +33,8 @@
     min-height: 502px;
     padding: 0;
     max-width: 480px;
+    margin-right: auto;
+    margin-left: auto;
     @media screen and (min-width: 768px) {
         background-image: url(../photo/hero/icecream@t1x.png);
         background-position: 93% 17px;
