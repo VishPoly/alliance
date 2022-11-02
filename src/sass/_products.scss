@@ -1,15 +1,22 @@
 .container.container__products {
   position: relative;
-  padding: 0px;
+  padding-top: 60px;
   margin: 0 auto;
-  max-width: 480px;
+  max-width: 100%;
+  background-image: url(../photo/products/background/background-image-1-mobile-min.png);
+  background-size: contain;
+
+  @media screen and(min-width:480px) {
+    background-image: url(../photo/products/background/background-image-tablet-min.png);
+    background-size: contain;
+  }
 
   @media screen and(min-width:768px) {
     background-image: url(../photo/products/background/background-image-tablet-min.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 32px;
-    max-width: 768px;
+    padding: 60px 32px 0px 32px;
+    max-width: 100%;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -21,8 +28,8 @@
     background-image: url(../photo/products/background/background-image-desctop-min.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 12px;
-    max-width: 1200px;
+    padding: 60px 12px 0px 12px;
+    max-width: 100%;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -33,8 +40,8 @@
 
 .products__about,
 .products__title {
-  position: absolute;
-  margin: 0;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .products__about {
@@ -46,18 +53,9 @@
   text-align: center;
   text-transform: uppercase;
   color: var(--black-text-color);
-  top: 60px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  @media screen and(min-width:768px) {
-    transform: none;
-    left: 295px;
-  }
+  margin-bottom: 12px;
 
   @media screen and(min-width:1200px) {
-    transform: none;
-    left: 480px;
     font-weight: 800;
     font-size: 30px;
     line-height: 1.23;
@@ -74,18 +72,8 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--black-text-color);
-  top: 96px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  @media screen and(min-width:768px) {
-    transform: none;
-    left: 231px;
-  }
 
   @media screen and(min-width:1200px) {
-    transform: none;
-    left: 435px;
     font-weight: 400;
     font-size: 36px;
     line-height: 45px;
@@ -98,6 +86,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   @media screen and(min-width:768px) {
     flex-direction: row;
@@ -106,35 +95,33 @@
 }
 
 .products__card.ice-cream {
-  padding: 280px 30px 0px 30px;
+  padding: 148px 30px 0px 30px;
   max-width: 480px;
-  background-image: url(../photo/products/background/background-image-1-mobile-min.png);
+
   background-size: cover;
 
   @media screen and(min-width:400px) {
-    padding: 280px 50px 0px 50px;
+    padding: 148px 50px 0px 50px;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../photo/products/background/background-image-1-mobile-2x-min.png);
     }
   }
 
   @media screen and(min-width:768px) {
-    padding: 343px 0 64px;
-    background-image: none;
+    padding: 200px 0 64px;
   }
 
   @media screen and(min-width:1200px) {
     max-width: 370px;
-    padding: 457px 0px 66px 0px;
+    padding: 303px 0px 66px 0px;
   }
 }
 
 .products__card.ice-coffee {
   padding: 164px 30px 0px 30px;
   max-width: 480px;
-  background-image: url(../photo/products/background/background-image-2-mobile-min.png);
+
   background-size: cover;
 
   @media screen and(min-width:400px) {
@@ -142,25 +129,23 @@
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../photo/products/background/background-image-2-mobile-2x-min.png);
     }
   }
 
   @media screen and(min-width:768px) {
-    padding: 343px 0 64px;
-    background-image: none;
+    padding: 200px 0 64px;
   }
 
   @media screen and(min-width:1200px) {
     max-width: 370px;
-    padding: 457px 0px 66px 0px;
+    padding: 303px 0px 66px 0px;
   }
 }
 
 .products__card.milkshakes {
   padding: 164px 30px 60px 30px;
   max-width: 480px;
-  background-image: url(../photo/products/background/background-image-3-mobile-min.png);
+
   background-size: cover;
 
   @media screen and(min-width:400px) {
@@ -168,18 +153,16 @@
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../photo/products/background/background-image-3-mobile-2x-min.png);
     }
   }
 
   @media screen and(min-width:768px) {
-    padding: 343px 0 64px;
-    background-image: none;
+    padding: 200px 0 64px;
   }
 
   @media screen and(min-width:1200px) {
     max-width: 370px;
-    padding: 457px 0px 66px 0px;
+    padding: 303px 0px 66px 0px;
   }
 }
 
@@ -215,7 +198,7 @@
     height: 535px;
   }
 }
-
+ 
 .products__wrap.ice-coffee {
   position: relative;
   display: flex;
@@ -340,9 +323,10 @@
   height: 20px;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 
   @media screen and(min-width:1200px) {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 }
 
@@ -353,13 +337,11 @@
 .products__modal:hover,
 .products__modal:focus {
   transform: scale(1.5);
-  transition: scale 250ms cubic-bezier(0.075, 0.82, 0.165, 1),
-    fill 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: scale 250ms ease-in-out, fill 250ms ease-in-out;
 
   &:hover .products__arrow {
     fill: #fff;
-    transform: fill , scale(1.5);
-    transition: fill 250ms cubic-bezier(0.075, 0.82, 0.165, 1),
-      scale 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: fill, scale(1.5);
+    transition: fill 250ms ease-in-out, scale 250ms ease-in-out;
   }
 }
