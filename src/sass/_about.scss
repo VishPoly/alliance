@@ -1,6 +1,6 @@
 .about {
     background: var(--background-color);
-
+    
     @media screen and (min-width: 1200px) {
         margin-bottom: -1px;
         
@@ -22,6 +22,14 @@
     
 //         }
 // }
+
+.frame{
+    @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
 
 .about__title {
     font-family: 'Montserrat';
@@ -118,10 +126,11 @@
 .about__link {
     @media screen and (min-width: 768px) {
         width: 336px;
-        display: flex;
+        // display: flex;
         flex-direction: column;
         gap: 8px;
         width: 220px;
+        
     }
 
     @media screen and (min-width: 1200px) {
@@ -296,6 +305,7 @@
     border: 0ch;
     min-width: 164px;
     min-height: 42px;
+    cursor: pointer;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -316,10 +326,12 @@
     &:hover{
         background-color: var(--button-color);
         color: var(--black-text-color);
+        transition: color transform 250ms ease-in-out;
     }
     &:focus{
         background-color: var(--button-color);
         fill: var(--white-text-color);
+        transition: fill 250ms ease-in-out;
         
         
 
@@ -327,6 +339,7 @@
      &:focus {
         background-color: var(--button-color);
         color: var(--white-text-color);
+        transition: color 250ms ease-in-out;
     
     
     

@@ -85,10 +85,6 @@
     }
 }
 
-.mob-menu-link.active{
-    color: #131313;
-}
-
 .mob-menu-buy-btn{
     position: absolute;
     left: 50%;
@@ -109,9 +105,15 @@
     cursor: pointer;
     @media screen and (min-width: 768px) {
         display: none;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-}
-
+        &:hover,
+        &:focus{
+            background-color: var(--button-color);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+           
+        }
+}   
 .mob-menu-btn-buy{
     width: 12px;
     height: 12px;
