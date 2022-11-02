@@ -6,11 +6,11 @@
     top: 0px;
     justify-content: center;
     @media screen and(min-width: 320px) {
-            height: 710px ;
+            height: 600px ;
         }
     
         @media screen and(min-width: 768px) {
-            height: 880px;
+            height: 700px;
         }
     
         @media screen and(min-width: 1200px) {
@@ -23,12 +23,31 @@
 // }
 .gallery-no {
     width: 100%;
-    height: 422px;
+    height: 150px;
     position: relative;
+        @media screen and(min-width: 480px) {
+                height: 201px;
+        
+            }
+        @media screen and(min-width: 768px) {
+            height: 300px;
+        }
+    
+        @media screen and(min-width: 1200px) {
+            height: 422px;
+            
+        }
 }
 .gallery {
     position: absolute;
     inset: -200px 0 0;
+        @media screen and(min-width: 768px) {
+            inset: -251px 0 0;
+        }
+    
+        // @media screen and(min-width: 1200px) {
+        // inset: -200px 0 0;
+        // }
 }
 // -----------------gallery------------------ //
 .gallery-link {
@@ -38,9 +57,10 @@
     align-items: center;
     z-index: 5;
     // overflow: hidden;
-
 }
-
+.gallery-list{
+    top: 69px;
+}
 .gallery-photo {
     height: 100%;
     border-radius: 24px;
@@ -60,7 +80,7 @@
 // -----------------reviews------------------ //
 
 .reviews-block {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -73,8 +93,6 @@
     }
     @media screen and(min-width: 1200px) {
         width: 1200px;
-        display: block;
-        
     }
 }
 
@@ -117,7 +135,7 @@
     letter-spacing: 0.04em;
     margin-top: 28px;
 
-    @media screen and(min-width: 320px) {
+    @media screen and(min-width: 480px) {
         padding: 34px 39px;
         margin-bottom: 30px;
     }
